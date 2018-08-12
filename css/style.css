@@ -21,6 +21,7 @@ h1 {
 .footer:hover {
     background-color: white;
     color: grey;
+    border: 3px yellow solid;
 }
 a:hover {
     color: green;
@@ -31,4 +32,10 @@ h2 {
     background-color: azure;
     border: 1px lightblue solid;
     border-radius: 5px; 
+}
+.copy {
+    font-size: 12px;
+    font-weight: 600;
+    display: inline;
+    text-align: left;
 }
