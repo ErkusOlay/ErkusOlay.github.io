@@ -34,8 +34,8 @@ h2 {
     border-radius: 5px; 
 }
 .copy {
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 600;
     display: inline;
-    text-align: left;
+    padding-right: 30px;
 }
