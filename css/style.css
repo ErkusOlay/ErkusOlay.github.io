@@ -1,12 +1,14 @@
 body {
     text-align: center;
-    width: 400px;
-    margin: 0 auto;
+    width: 700px;
+    margin: 10px auto;
     border: 1px blue dotted;
     border-radius: 3px;
 }
 h1 {
-    padding-top: 0;
+    padding: 10px;
+    
+    border-bottom: 1px solid blue;
 }
 .footer {
     margin-bottom: 0;
@@ -32,6 +34,8 @@ h2 {
     background-color: azure;
     border: 1px lightblue solid;
     border-radius: 5px; 
+    width: 300px;
+    margin: 0 auto;
 }
 .copy {
     font-size: 10px;
