@@ -1,7 +1,7 @@
 body {
     text-align: center;
-    width: 400px;
-    margin: 0 auto;
+    max-width: 700px;
+    margin: 10px auto;
     border: 1px blue dotted;
     border-radius: 3px;
 }
@@ -12,6 +12,7 @@ h1 {
 h1:hover {
     color: aqua;
     text-decoration: underline;
+    padding: 10px;
 }
 .footer {
     margin-bottom: 0;
@@ -37,6 +38,8 @@ h2 {
     background-color: azure;
     border: 1px lightblue solid;
     border-radius: 5px; 
+    width: 300px;
+    margin: 0 auto;
 }
 .copy {
     font-size: 10px;
