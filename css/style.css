@@ -17,7 +17,7 @@ h1 {
     height: 60px;
     margin: 0 auto;
     padding-left: 10px;
-    display: flex;
+    display: inline-flex;
     justify-content: space-between;
     align-items: center;    
 }
@@ -29,6 +29,7 @@ nav {
     position: absolute;
     bottom: 0;
     width: 100%;
+    z-index: 1;
     margin: 0 auto;
     border: 2px red solid;
     padding: 10px;
@@ -39,6 +40,8 @@ nav {
     padding-top: 100px;
     display: flex;
     flex-direction:column;
+    justify-content: center;
+    align-items: center;
 }
 .footer:hover {
     background-color: white;
@@ -65,12 +68,14 @@ h2 {
     padding-right: 30px;
 }
 .about {
-    width: 300px;
+    height: 250px;
     text-align: center;
     flex-shrink: 1;
+    flex-grow: 1;
 }
 .update {
-    width: 250px;
+    height: 150px;
     text-align: center;
     flex-shrink: 1;
+    flex-grow: 1;
 }
