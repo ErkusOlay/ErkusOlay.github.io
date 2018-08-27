@@ -1,5 +1,7 @@
 body {
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 div {
     border: 1px solid black;
@@ -12,16 +14,17 @@ h1 {
     position: fixed;
     z-index: 1;
     width: 100%;
-    border: 1px solid black;
-    height: auto;
+    height: 60px;
+    margin: 0 auto;
+    padding-left: 10px;
     display: flex;
-    align-items: center;
-    flex-flow: wrap;
     justify-content: space-between;
+    align-items: center;    
 }
 nav {
-    color: green;
+    padding-right: 30px;
 }
+
 .footer {
     position: absolute;
     bottom: 0;
@@ -44,6 +47,7 @@ nav {
 }
 a:hover {
     color: green;
+    text-decoration: none;
 }
 h2 {
     letter-spacing: 3px;
